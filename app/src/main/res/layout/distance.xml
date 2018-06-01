@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:padding="@dimen/activity_horizontal_margin"
+                  android:layout_margin="@dimen/activity_horizontal_margin"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+
+                  android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Range"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"/>
+
+
+        <RadioGroup
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:id="@+id/radioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="5km"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="10km"
+                android:layout_marginTop="14dp"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="14dp"
+                android:text="15km"
+                android:textSize="18sp"/>
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="14dp"
+                android:text="20km"
+                android:textSize="18sp"/>
+        </RadioGroup>
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonConfirm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:background="#ffffff"
+            android:padding="12dp"
+            android:onClick="Cancel"
+            android:text="Cancel"
+
+            android:textColor="@color/colorAccent" />
+
+
+    </LinearLayout>
+
+</ScrollView>

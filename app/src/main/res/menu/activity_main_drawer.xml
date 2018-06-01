@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/near"
+            android:title="@string/near_by_friends"
+            android:icon="@drawable/nearfriends"/>
+
+        <item
+            android:id="@+id/stopnear"
+            android:title="stop near"
+            android:icon="@drawable/block"/>
+        <item
+            android:id="@+id/Range"
+            android:title="Range"
+            android:icon="@drawable/range"/>
+
+    </group>
+    <item android:title="@string/map_view">
+        <menu>
+
+            <item
+                android:id="@+id/terrain"
+                android:icon="@drawable/ic_terrain_black_24dp"
+                android:title="terrain" />
+            <item
+                android:id="@+id/Satilite"
+                android:icon="@drawable/ic_satellite_black_24dp"
+                android:title="@string/satilite" />
+            <item
+                android:id="@+id/normal"
+                android:icon="@drawable/ic_map_black_24dp"
+                android:title="@string/normal" />
+        </menu>
+    </item>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share"/>
+
+        </menu>
+    </item>
+
+</menu>
